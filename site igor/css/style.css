@@ -1,0 +1,375 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: rgba(138, 125, 125, 0.9);
+    opacity: 1;
+    transition: 2s opacity;
+    background-image: url(https://samherbert.net/svg-loaders/svg-loaders/ball-triangle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fade {
+    opacity: 0;
+}
+.col-sm-12{
+	text-align: center;
+}
+.col-sm-12 h2{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+h3{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	}
+p{
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	color: #777;
+	text-align: center;
+}
+
+/* header */
+header{
+	background-image: url('../images/header.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	min-height: 100vh;
+	
+}
+header .container{
+	display: flex;
+	flex-direction: column;	
+	min-height: 100vh;
+	align-items: center;
+}
+nav{
+ 	margin: 0;
+ 	align-self: stretch;
+ 	display: flex;
+ }
+ .container .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+     font-family: 'Noto Serif', serif;
+	font-style: italic;
+}
+.fa-bars{
+	color: yellow;
+}
+
+.nav-link{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	margin-left: 38px;
+	text-transform: uppercase;
+
+}
+.nav-link:hover{
+	color: #fed136;
+}
+.container .navbar-brand{
+	color: #fff;
+	font-weight: 700;
+	font-size: 25px;
+
+}
+.navbar-brand:hover{
+	color: #fed136;
+}
+.hero{
+	margin:25% 0;
+	text-align: center;
+
+}
+
+
+
+header .subh1{
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	font-size: 40px;
+	margin-bottom: 56px;
+	color: #fff;
+}
+header h1{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 74px;
+	margin-bottom: 61px;
+	text-transform: uppercase;
+	
+	
+}
+header .btn{
+	padding: 26px 85px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+/* /header */
+/*services*/
+.services .col-sm-12 {
+	text-align: center;
+	margin-top: 120px ;
+	margin-bottom: 80px;
+}
+.services .col-sm-12  h2{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color #000;
+	margin-bottom: 24px;
+
+}
+.services .col-sm-12 p{
+	font-size: 16px;
+	
+
+}
+.col-sm-4{
+	text-align: center;
+}
+.services img{
+	width: 100px;
+	margin-bottom: 30px;
+
+}
+.services h3{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.services p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	margin-bottom: 123px;
+}
+/*portfolio*/
+.portfolio{
+	margin-top: 123px;
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	min-height: 100vh;
+}
+.portfolio .col-sm-12{
+	padding: 120px;
+	margin-bottom: 60px;
+}
+ .portfolio .col-sm-12 p{
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #777;
+	}
+.portfolio h3{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+
+	}
+.portfolio .card:hover{
+	background-color: grey;
+	color: white;
+
+	}
+	.portfolio .card:hover p{
+		color: white;
+	}
+.portfolio .card p{
+	text-align: center;
+}	
+/*team*/
+
+.team .text {
+    display: none;
+    padding: 20px;
+    background-color: #77f;
+}
+
+.team .active .text {
+    display: block;
+}
+.team{
+	margin-top: 123px;
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	min-height: 100vh;
+}
+.team .col-sm-12{
+	margin-top: 118px;
+	margin-bottom: 128px;
+}
+.team .card{
+	border: none;
+}
+.team p{
+	margin-bottom: 20px;
+}
+.team i{
+	color:#000;
+	border: 3px solid #000;
+	padding: 10px;
+	border-radius:60px;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.team .fa-facebook-f{
+	padding: 10px 14px;
+}
+.team .fa-pinterest-p{
+	padding: 10px 13px;
+}
+.team h2{
+	padding-top: 100px;
+}
+/*team*/
+/*logos*/
+.logos{
+	margin: 45px 0;
+}
+.logos img{
+	width: 80%;
+}
+/*logos*/
+/*contact*/
+.contact{
+	margin-top: 123px;
+	background-image: url(../images/ba.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	min-height: 100vh;
+}
+.contact .container h2{
+	margin-top: 100px!important;    /*1111111111111?*/
+
+}
+.contact h2{
+	color: white;
+	padding-top: 100px;
+}
+.contact input{
+margin-bottom: 25px;
+height: 50px;
+padding:10px;
+}
+.contact textarea{
+width: 100%;
+height: 82%;
+border-radius: 5px;
+padding:10px;
+
+}
+.contact .button{
+	text-align: center;
+}
+.contact .btn{
+	padding: 26px 85px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 30px;
+
+}
+/*contact*/
+/*footer*/
+.footer .foot{
+	text-align: left;
+	margin-left: 0;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	color: #777;
+
+}
+footer ul{
+	display: flex;
+	list-style: none;
+	margin: 0 10%;
+}
+footer .container{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+footer i{
+	color:white;
+	border: 3px solid #000;
+	padding: 10px;
+	border-radius:60px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: #000;
+}
+footer .fa-facebook-f{
+	padding: 10px 14px;
+}
+footer .fa-pinterest-p{
+	padding: 10px 13px;
+}
+
+/*footer*/
+.up{
+	background-color: yellow;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	border-radius: 50% 20%;
+	opacity: 0.5;
+
+
+}
+.up a{
+	color: white;
+	padding: 20px;
+	display: inline-block;
+	font-size: 30px;
+
+}
+.up:hover{
+	opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+h1{
+ font-size: 46px !important;
+}
+.button .btn{
+	width: 100% !important;
+	margin-bottom: 10px !important;
+}
+
+}
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Noto Serif', serif;*/
